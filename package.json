@@ -21,6 +21,8 @@
     "globals": [
       "describe",
       "it",
+      "test",
+      "expect",
       "fetch",
       "navigator",
       "__DEV__",
@@ -37,9 +39,10 @@
     "np": "2.12.0",
     "nyc": "10.1.2",
     "sinon": "2.2.0",
-    "standard": "8.6.0"
+    "standard": "8.6.0",
+    "husky": "^0.13.3",
+    "snazzy": "^7.0.0"
   },
   "dependencies": {
-    "husky": "^0.13.3"
   }
 }

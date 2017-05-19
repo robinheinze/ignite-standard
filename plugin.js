@@ -8,7 +8,6 @@ const PLUGIN_PATH = __dirname
 
 const patches = require(`${PLUGIN_PATH}/patches`)
 
-
 const add = async function (context) {
   const { ignite, filesystem } = context
 
@@ -44,4 +43,3 @@ const remove = async function (context) {
 
 // Required in all Ignite CLI plugins
 module.exports = { add, remove }
-
