@@ -26,4 +26,17 @@ If you don't currently have a linter installed in your Ignite project, run `igni
 
 If you are igniting a project from scratch using IR boilerplates (https://github.com/infinitered/ignite/blob/master/BOILERPLATES.md), this plugin is included by default.
 
+## Contributing
 
+Contributing
+
+1. Clone this repo
+2. Run yarn install
+2. Run yarn test
+2. Check out a branch and make your changes
+2. Write tests for those changes
+2. Submit a pull request back upstream
+
+License
+
+This plugin is licensed MIT
