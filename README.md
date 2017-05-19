@@ -1,6 +1,6 @@
 # Ignite Standard
 
-An ignite wrapper for [Standard.js](https://github.com/feross/standard)
+An [Ignite](https://github.com/infinitered/ignite) wrapper for [Standard.js](https://github.com/feross/standard)
 
 Adds the module, as well as the following npm scripts:
 
@@ -24,5 +24,6 @@ Also adds linting to the existing git-hook
 
 If you don't currently have a linter installed in your Ignite project, run `ignite add standard`
 
-If you are igniting a project from scratch using the `ignite-ir-next` boilerplate, this plugin is included by default.
+If you are igniting a project from scratch using IR boilerplates (https://github.com/infinitered/ignite/blob/master/BOILERPLATES.md), this plugin is included by default.
+
 
