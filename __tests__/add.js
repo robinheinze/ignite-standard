@@ -16,7 +16,9 @@ test('adds the proper npm module and component example', async () => {
 
   await plugin.add(context)
 
-  expect(addModule.calledWith('standard', { link: true, dev: true })).toBe(true)
+  expect(addModule.calledWith('standard', { link: true, dev: true, version: '10.0.2' })).toBe(true)
+  expect(addModule.calledWith('snazzy', { dev: true })).toBe(true)
+  expect(addModule.calledWith('babel-eslint', { dev: true, version: '7.1.1' })).toBe(true)
   expect(read.calledOnce).toBe(true)
   expect(write.calledOnce).toBe(true)
 })

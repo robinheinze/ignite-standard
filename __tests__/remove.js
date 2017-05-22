@@ -15,6 +15,8 @@ test('removes Standard', async () => {
   await plugin.remove(context)
 
   expect(removeModule.calledWith('standard', { unlink: true })).toBe(true)
+  expect(removeModule.calledWith('snazzy')).toBe(true)
+  expect(removeModule.calledWith('babel-eslint')).toBe(true)
   expect(read.calledOnce).toBe(true)
   expect(write.calledOnce).toBe(true)
 })
