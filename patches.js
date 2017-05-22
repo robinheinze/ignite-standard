@@ -7,6 +7,7 @@ module.exports = {
     'globals': [
       'describe',
       'test',
+      'jest',
       'expect',
       'fetch',
       'navigator',
