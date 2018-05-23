@@ -24,7 +24,6 @@ const add = async function (context) {
   pkg.scripts['lint'] = patches.lint
   pkg.scripts['lintdiff'] = patches.lintdiff
   pkg.scripts['fixcode'] = patches.fixcode
-  pkg.scripts['git-hook'] = patches['git-hook']
   pkg.standard = patches.standard
 
   filesystem.write(`${APP_PATH}/package.json`, pkg)
@@ -43,7 +42,6 @@ const remove = async function (context) {
   delete pkg.scripts['lint']
   delete pkg.scripts['lintdiff']
   delete pkg.scripts['fixcode']
-  pkg.scripts['git-hook'] = patches.noLintHook
   delete pkg['standard']
 
   filesystem.write(`${APP_PATH}/package.json`, pkg)
