@@ -17,6 +17,5 @@ module.exports = {
       'React$Element'
     ]
   },
-  'git-hook': 'npm run lint -s && npm run test -s',
   'noLintHook': 'npm run test -s'
 }
